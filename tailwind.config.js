@@ -1,5 +1,5 @@
 module.exports = {
-    content: ["./index.html"],
+    content: ["./index.html", "./src/**/*.{js,ts}"],
     theme: {
         extend: {
             colors: {
@@ -13,10 +13,10 @@ module.exports = {
                 },
             },
             lineHeight: {
-                100: "100%",
+                tight: "100%",
             },
             boxShadow: {
-                custom: "0px 4px 4px 0px #00000040",
+                custom: "0px 4px 4px rgba(0, 0, 0, 0.25)",
             },
             backgroundImage: {
                 "blue-gradient": "linear-gradient(92.88deg, #9977FF 11.2%, #6741D9 82%)",
